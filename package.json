@@ -1,0 +1,17 @@
+{
+  "name": "typescript-fundamentals",
+  "version": "1.0.0",
+  "description": "Notes from a udemy course about typescript fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

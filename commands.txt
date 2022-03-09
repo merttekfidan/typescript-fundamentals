@@ -1,0 +1,14 @@
+// initialize typescript settings
+tsc --init
+
+// To compile pure javascript
+tsc example.ts
+
+// compile automatically after every changes
+tsc --watch function_types.ts
+
+// liveserver
+npm install -g live-server
+
+//to execute
+live-server
