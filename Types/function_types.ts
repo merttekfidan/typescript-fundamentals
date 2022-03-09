@@ -15,4 +15,5 @@ universal = stringFunction
 console.log(universal());
 
 let sum: (value1: number, value2: number) => number;
-))
+sum = cal
+console.log(sum(1, 2))
