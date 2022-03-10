@@ -1,3 +1,7 @@
+var automobile2 = {
+    brand: 'Porche',
+    speed: 300
+};
 var automobile = {
     brand: 'BMW',
     speed: 100,
