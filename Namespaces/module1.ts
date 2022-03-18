@@ -1,8 +1,8 @@
 namespace myNameSpace {
     export const name = 'Maria'
-    export function displayData() {
-        return (`Welcome ${name}`)
+    export function displayData(text: string) {
+        return (`Welcome ${text}`)
     }
 }
 
-console.log(myNameSpace.displayData())
+//console.log(myNameSpace.displayData())

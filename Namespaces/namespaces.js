@@ -1,11 +1,14 @@
 var myNameSpace;
 (function (myNameSpace) {
     myNameSpace.name = 'Maria';
-    function displayData() {
-        return ("Welcome " + myNameSpace.name);
+    function displayData(text) {
+        return ("Welcome " + text);
     }
     myNameSpace.displayData = displayData;
 })(myNameSpace || (myNameSpace = {}));
-console.log(myNameSpace.displayData());
+//console.log(myNameSpace.displayData())
 ///<reference path='./module1.ts'/>
-console.log(myNameSpace.name);
+var thisSpace = myNameSpace.displayData;
+console.log(thisSpace('Hello this is Mert'));
+// To compile this file use this command
+// tsc namespaces --outFile namespaces.js
