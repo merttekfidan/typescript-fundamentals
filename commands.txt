@@ -12,3 +12,6 @@ npm install -g live-server
 
 //to execute
 live-server
+
+// compile namespace
+tsc namespaces --outFile namespaces.js
